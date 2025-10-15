@@ -32,8 +32,12 @@ A Spring Boot web application that uses Google Gemini AI to break down project g
 ## Setup
 
 1. Clone the repository
-2. Get a Google Gemini API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
-3. Set the API key as an environment variable:
+2. Navigate to the project folder:
+   ```bash
+   cd task_planner
+   ```
+3. Get a Google Gemini API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
+4. Set the API key as an environment variable:
    ```bash
    export GEMINI_API_KEY=your_api_key_here
    ```
@@ -45,6 +49,7 @@ A Spring Boot web application that uses Google Gemini AI to break down project g
 ## Running the Application
 
 ```bash
+cd task_planner
 ./mvnw spring-boot:run
 ```
 
