@@ -17,7 +17,7 @@
 *.properties text eol=lf
 
 *.js linguist-detectable=false
-*.html linguist-detectable=true
+*.html linguist-detectable=false
 
 # Treat all files in target/ as binary and not to be processed
 target/** -text
