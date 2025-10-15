@@ -16,9 +16,8 @@
 # Force properties files to always use LF line endings
 *.properties text eol=lf
 
-# Treat HTML and JavaScript files as binary (not visible in GitHub)
-*.{html,htm} binary
-*.{js,jsx,ts,tsx} binary
+*.js linguist-detectable=false
+*.html linguist-detectable=true
 
 # Treat all files in target/ as binary and not to be processed
 target/** -text
