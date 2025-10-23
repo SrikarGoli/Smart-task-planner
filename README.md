@@ -1,10 +1,8 @@
 
 # Task Planner
 
-> 💡 **Source Code:**  
-> All main files (Controller, Service, Repository, etc.) are inside  
-> [`task_planner/src/main/java/com/example`](https://github.com/SrikarGoli/Smart-task-planner/tree/main/task_planner/src/main/java/com/example)
-
+👉 **For all source code files (controllers, services, repositories, etc.), go to:**  
+**[`task_planner/src/main/java/com/example`](https://github.com/SrikarGoli/Smart-task-planner/tree/main/task_planner/src/main/java/com/example)**
 
 
 A Spring Boot web application that uses Google Gemini AI to break down project goals into structured, actionable tasks with priorities, timelines, and dependencies.
